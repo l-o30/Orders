@@ -1,70 +1,72 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Place Your Orders</title>
-    <link rel="stylesheet" href="Style.css">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>STOCKHOME</title>
 
+    <script src="https://kit.fontawesome.com/ecb67acefc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/Thotholani/Documents/RECREATION/PROJECTS/fontawesome-free-5.15.1-web/css/all.css">
 
-</head>
-<body>
-    <div class="menu-bar">
-    <ul>
-    <li class="active"><a href="#" ><i class="fa fa-home"></i>Home</li>
-    <li><a href="#" ><i class="fa fa-user"></i>About Us>
-    <div class="sub-menu-1">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Mountains+of+Christmas|Shadows+Into+Light&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Hanalei|Indie+Flower|Orbitron|Righteous&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|PT+Serif&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        
+        <div class="box1">
         <ul>
-            <li><a href="#">Mission</a></li>
-            <li><a href="#">Vision</a></li>
-            <li><a href="#">Team</a></li>
-        </ul>
-    </div>
+            <li><a href="">USD</a>  <i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li><a href="">English</a>  <i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li><a href="">My Account</a>  <i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            </ul>
+        
+            <h5>Free shipping on all US orders over $50</h5>
+        </div>
+        
+        <div class="subbox">
+            
+            <ol>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            </ol>
 
-   <ul>
-    <li><a href="#" ><i class="fa fa-clone"></i>Services</li>
-    <li><a href="#" ><i class="fa fa-users"></i>Clients</li>
-    <li><a href="#" ><i class="fa fa-inr"></i>Pricing</li>
-    </ul>
-    </div>
 
-    <h1>Place Your Orders here!</h1>
-    <div class="order-table">
-    <table class="table table-stripped table-dark">
-        <thead> 
-           <tr>
-               <th>ID</th>
-               <th>Order number</th>
-               <th>Order Date</th>
-               <th>Product</th>
-               <th>Quantity</th>
-               <th>Price</th>
-           </tr>  
-        </thead>
-        <tbody id="tbody"></tbody>
-        <tr>
-            <td>1</td>
-            <td>2030</td>
-            <td>25/09/2020</td>
-            <td>NFC Tags</td>
-            <td>10</td>
-            <td>300.99</td>
-            <td><i class="fas fa-edit btnedit"></i></td>
-        </tr>
-    </table>
-    </div>
-    <form>
-    <form action="" method="POST">    
-    <label> Email</label>
-    <input type="text" name="Email" value="Enter Your Email">
-    <label>Password</label>
-    <input type="text" name="password" value="Enter password">    
-    </form>
-
- 
-</body>
+            <div class="icon">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <div class="search-box">
+                    <i class="fa fa-search" aria-hidden="true"><input type="text" placeholder="Search"></i>
+                </div>
+                
+                <div class="background">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <h3>0</h3>
+            </div>
+            <h2>STOCK<font>HOME</font></h2>
+            </div>
+        </div>
+        
+        
+        <div class="cover">
+        <img src="fashion01.jpg">
+        
+            <div class="text">
+            <h1> Get up  to 30% off new arrivals</h1>
+                <h4>Spring/summer collection 2020</h4>
+            
+                <form action="" method="get">
+            <input type="submit" value="Shop Now">
+            <input type="sub" value="Learn More">
+            </form>
+            </div>
+        
+        </div>
+        </div>
+    </body>
 </html>
