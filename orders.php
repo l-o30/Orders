@@ -31,7 +31,7 @@
             
             <ol>
             <li><a href="">Home</a></li>
-            <li><a href="">Shop</a></li>
+            <li><a href="shop.html">Shop</a></li>
             <li><a href="">Pages</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
@@ -39,7 +39,7 @@
 
 
             <div class="icon">
-                <i class="fa fa-user" aria-hidden="true"></i>
+               <a class="text-dark" href="login.php"><i class="fa fa-user" aria-hidden="true"></i></a>
                 <div class="search-box">
                     <i class="fa fa-search" aria-hidden="true"><input type="text" placeholder="Search"></i>
                 </div>
