@@ -39,7 +39,7 @@ h5{
 
 .subbox{
     border: 1px solid transparent;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     height: 50px;
 }
 
@@ -88,7 +88,7 @@ ol li a:hover{
     width: 25px;
     height: -30px;
     border-radius: 100px;
-    background-color: navajowhite;
+    background-color: rgb(255, 222, 173);
     margin-top: -4px;
     margin-left: -4px;
     text-align: center;
@@ -215,7 +215,7 @@ t{
     border-radius: 0px;
     border: 0;
     outline: none;
-    background-color: whitesmoke;
+    background-color: #805151;
 }
 
 form input[type="sub"]{

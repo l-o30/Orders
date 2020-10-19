@@ -30,8 +30,8 @@
         <div class="subbox">
             
             <ol>
-            <li><a href="">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
+            <li><a href="orders.php">Home</a></li>
+            <li><a href="table.php">Shop</a></li>
             <li><a href="">Pages</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
